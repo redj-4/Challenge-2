@@ -21,3 +21,18 @@ let average = total / scores.length;
 
 console.log("Updated Scores:", scores);
 console.log("Average Score:", average);
+
+//Task 3//
+let employee = {
+    name: "Carl Baskins",
+    age: 30,
+    department: "Sales",
+    isActive: true
+}; //Declare an object "employee" with initial properties//
+
+//updating department property//
+employee.department = 'Marketing';
+
+employee.position = 'Manger';
+
+console.log('Updated Employee Record:',employee);
