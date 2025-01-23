@@ -50,3 +50,18 @@ customers.push({ name: "Diana Prince", email: "diana.prince@example.com", purcha
 console.log('Customer List:',customers);
 
 //Task 5//
+// Declared an object "order" with properties and a method below
+let order = {
+    orderId: 101,
+    customerName: "DJ Black",
+    amount: 120.50,
+
+    // Method to calculate tax
+    calculateTax: function() {
+        const taxRate = 0.10; // 10% tax rate
+        return this.amount * taxRate;
+    }
+};
+//logging order details and tax
+console.log('Order Details:',order);
+console.log('Tax Details:',order.calculateTax());
