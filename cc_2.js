@@ -36,3 +36,17 @@ employee.department = 'Marketing';
 employee.position = 'Manger';
 
 console.log('Updated Employee Record:',employee);
+
+//Task 4//
+let customers = [
+    { name: "DJ Black", email: "alice.johnson@example.com", purchaseAmount: 120.50 },
+    { name: "Bob White", email: "bob.smith@example.com", purchaseAmount: 75.00 },
+    { name: "Charlie Brown", email: "charlie.brown@example.com", purchaseAmount: 200.00 }
+];//Array with 3 objects given properties//
+
+//Adding new customer/object to array now//
+customers.push({ name: "Diana Prince", email: "diana.prince@example.com", purchaseAmount: 150.75 });
+
+console.log('Customer List:',customers);
+
+//Task 5//
